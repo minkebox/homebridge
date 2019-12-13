@@ -1,3 +1,3 @@
-FROM registry.minkebox.net/minkebox/homebridge_base:latest
+FROM registry.gitlab.net/minkebox/homebridge_base:latest
 
 COPY root/ /
