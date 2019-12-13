@@ -1,0 +1,11 @@
+{
+  "bridge": {
+    "name": "{{HOSTNAME}}",
+    "username": "{{BRIDGE_USERNAME}}",
+    "port": 51826,
+    "pin": "{{BRIDGE_PIN}}"
+  },
+  "description": "",
+  "accessories": {{ACCESSORIES}}
+  "platforms": {{PLATFORMS}}
+}
