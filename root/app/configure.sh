@@ -1,6 +1,8 @@
 #! /bin/sh
 
-(cd /app ; npm --save install ${PACKAGES})
+if [ "${PACKAGES}" != "" ]; then
+  (cd /app ; npm --save install ${PACKAGES})
+fi
 
 ACCESSORIES=$(cat /app/accessories-config.json)
 PLATFORMS=$(cat /app/platforms-config.json)
