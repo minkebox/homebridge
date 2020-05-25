@@ -3,7 +3,8 @@
     "name": "{{HOSTNAME}}",
     "username": "{{BRIDGE_USERNAME}}",
     "port": 51826,
-    "pin": "{{BRIDGE_PIN}}"
+    "pin": "{{BRIDGE_PIN}}",
+    "setupID": "{{BRIDGE_SETUPID}}"
   },
   "description": "",
   "accessories": {{ACCESSORIES}}
