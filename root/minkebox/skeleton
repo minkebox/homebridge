@@ -102,6 +102,10 @@
     },
     {
       type: `Environment`,
+      name: `BRIDGE_SETUPID`
+    },
+    {
+      type: `Environment`,
       name: `PACKAGES`
     },
     {
