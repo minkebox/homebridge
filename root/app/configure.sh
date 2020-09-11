@@ -3,6 +3,9 @@
 if [ "${PACKAGES}" != "" ]; then
   (cd /app ; npm --save install ${PACKAGES})
 fi
+if [ "${INSECURE}" = "true" ]; then
+  HOMEBRIDGE_FLAGS="${HOMEBRIDGE_FLAGS} -I"
+fi
 
 cat /app/config.json | sed \
   -e "s/{{HOSTNAME}}/${HOSTNAME}/g" \
